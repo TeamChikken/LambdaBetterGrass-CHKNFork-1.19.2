@@ -164,6 +164,6 @@ public class LBGBakedModel extends ForwardingBakedModel {
 
 	@Override
 	public void emitItemQuads(ItemStack stack, Supplier<RandomGenerator> randomSupplier, RenderContext context) {
-		throw new UnsupportedOperationException("LambdaBetterGrass models should never try to render as an item!");
+		//Do literally nothing please.
 	}
 }
